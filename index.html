@@ -12,9 +12,9 @@ layout: page
   {% endif %}
   <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a id="posttitle" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <a class="posttitle" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     {% if site.truncate %}
-    <p id="truncate">{{ post.content | strip_html | truncate: site.truncate }}</p>
+    <p class="truncate">{{ post.content | strip_html | truncate: site.truncate }}</p>
     {% endif%}
 <br />
   </li>
