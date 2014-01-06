@@ -1,7 +1,7 @@
 permalink: /:year/:month-:day-:title.html
 markdown: rdiscount
 destination: _site
-url: one-point.github.io
+url: http://one-point.github.io
 name: 每小题1分
 author: One-Point
 email: wlzhizhen@163.com
