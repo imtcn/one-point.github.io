@@ -10,5 +10,6 @@ github: one-point
 pygments: true
 safe: false
 paginate: 20
-truncate: 
+truncate: 70
 tkurl: onepoint.tk
+auto: true
